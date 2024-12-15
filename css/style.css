@@ -1,0 +1,270 @@
+
+/* Обнуление стилей */
+*,
+*::before *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+ 
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,body {
+    height: 100%;
+}
+
+/* По умолчанию 16 рх */
+html {
+    font-size: 16px;
+}
+
+body {
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+} 
+ 
+.wrapper {
+    min-height: 100%;  
+    overflow: hidden;
+    padding: 50px;
+}
+
+/* .........lesson10 Home Work.......... */
+
+.block {
+    position: relative;
+   z-index: 1;
+margin: 50px;
+    width: 1440px;
+height: 608px;
+background: #29c3be;
+}
+
+.title {
+
+    padding: 111px 747px 33px 243px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.21em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.subtitle {
+   margin: 32px 700px 0px 210px;
+    font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 36px;
+line-height: 117%;
+color: #fff;
+}
+
+.img {
+    z-index: 2;
+    margin:-284px 10px 373px 732px;
+}
+
+.item {
+}
+.item1 {
+}
+.text_item1 {
+
+    margin: -290px 995px 241px 295px;
+    font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 36px;
+line-height: 117%;
+color: #fff;
+}
+.icon_item1 {
+    margin: -312px 1154px 2px 210px;
+}
+
+.item1_subtitle {
+    margin: -240px 995px 241px 295px;
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #5d62b5;
+}
+
+
+.item2 {
+}
+.text_item2 {
+    margin: -73px 778px 248px 545px;
+    font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 36px;
+line-height: 117%;
+color: #fff;
+}
+
+.item2_subtitle {
+    margin: -248px 778px 248px 545px;
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #5d62b5;
+}
+.icon_item2 {
+    display: block;
+    margin: -322px 22px 218px 460px;
+}
+
+.icon {
+    position: absolute;
+    width: 17px;
+height: 16px;
+  top: 110px;
+  left: 210px;
+
+}
+
+
+.item_bottom {
+    position: relative;
+    margin: -130px 200px;
+    border-radius: 20px;
+width: 1020px;
+height: 150px;
+background: #5d62b5;
+}
+
+.item_bottom_text {
+    padding: 43px 340px 46px 50px;
+   text-align: justify;
+    font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 24px;
+line-height: 125%;
+color: #fff;
+}
+
+
+.img_dog {
+    justify-content: end;
+overflow: hidden;
+    position: relative;
+    z-index: 3;
+    margin: 50px 0px -275px 870px;
+    border-radius: 40px;
+    width: 498px;
+    height: 315px;
+}
+
+
+.item3 {
+}
+.text_item3 {
+
+    margin: -285px 980px 248px 813px;
+    font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 36px;
+line-height: 117%;
+color: #fff;
+
+}
+.item3_subtitle {
+    margin: -250px 980px 248px 813px;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #5d62b5;
+white-space: nowrap;
+}
+
+.icon_item3 {
+    margin: -318px 980px 248px 728px;
+    width: 76px;
+    height: 76px;
+}
+
+.button {
+ cursor: pointer;
+margin: -95px 76px 61px 760px;
+    border-radius: 8px;
+width: 210px;
+height: 48px;
+background: #f2726f;}
+
+.item_button_text2 {
+padding: 13px;
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 12px;
+line-height: 200%;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+
+.item4 {
+  position: relative;
+}
+.text_item4 {
+    position: absolute;
+   margin-top: 7px;
+ left: 1065px;
+    font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 36px;
+line-height: 117%;
+color: #fff;
+}
+
+.item4_subtitle {
+   position: absolute;
+   margin-top: 48px;
+   left: 1069px;
+   font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #5d62b5;
+    white-space: nowrap;
+}
+.icon_item4 {
+    margin: -327px 350px 218px 977px;
+    width: 76px;
+    height: 76px;
+}
